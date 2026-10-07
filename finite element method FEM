@@ -1,0 +1,12 @@
+This spreadsheet contains a complete implementation of the Finite Element Method (FEM) for the calculation of structural internal forces. The Excel workbook enables users to follow each computational step in detail.
+Beginning with the definition of the structural geometry, support conditions, and external loads, the user can specify all required characteristics of the structure to be analyzed.
+Based on these input data, the spreadsheet automatically generates the global stiffness matrix, assembles the load vector, applies the boundary conditions, and solves the system of equations to determine the nodal displacements: q=Ks−1*f
+To present the results in the form of internal forces, the program calculates element forces and bending moments using the computed nodal displacements.
+The workbook contains the complete mathematical formulation for a two-dimensional frame structure based on a geometrically nonlinear analysis approach.
+The deflected shape is evaluated using the classical beam theory formulation without considering the influence of axial loading on the bending deformation.
+All calculation stages are fully accessible to the user. Formulas, equations, and VBA codes can be reviewed, modified, and further developed.
+As an example, the first worksheet presents the geometry of the input frame model, illustrating the methodology used to define individual structural elements and their connections.
+The workbook does not contain any external links or references. All formulas, algorithms, and computational procedures are implemented directly within the spreadsheet, making it a fully self-contained FEM analysis tool. 
+
+ 
+
